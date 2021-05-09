@@ -1,0 +1,77 @@
+body {
+    width:700px;
+
+}
+header img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+header div h6,h3{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+header div {
+    display: inline-block;
+    line-height: 25px;
+}
+
+header h3{
+    font-family: 'Lobster', cursive;
+}
+
+header h6{
+    color: gray;
+}
+
+header .right{
+    float:right;
+    width:130px;
+    height:20px;
+    padding-top: 15px;
+}
+
+
+.slash{
+height: 5px;
+color: gray;
+background-image: linear-gradient(
+  90deg,
+  currentColor,
+  currentColor 33.33%,
+  transparent 33.33%,
+  transparent 100%);
+background-size: 3px 100%;
+width:100%
+}
+
+main .one div :last-child {
+    width: 20px;
+    height: 20px;
+    float:right;
+
+}
+
+main .one div h6,h1{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+main .one div h6{color: gray;}
+
+.main { width: 700px;
+    height: 450px;
+    padding-top: 20px;
+}
+
+form{
+    background-image: url(images/list-bg.png);
+    
+}
+
+ #text {
+    text-decoration-line: line-through;
+
+ }
